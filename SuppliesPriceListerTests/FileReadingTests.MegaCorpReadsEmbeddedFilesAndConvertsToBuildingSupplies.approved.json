@@ -33,5 +33,40 @@
         "Id": "7",
         "Name": "11 x 200 Trench Mesh",
         "Price": 14.96
+    },
+    {
+        "Id": "10",
+        "Name": "600 x 150 Concrete Gutter Crossover",
+        "Price": 80.0
+    },
+    {
+        "Id": "11",
+        "Name": "75mm x 20mpa Slab",
+        "Price": 75.0
+    },
+    {
+        "Id": "12",
+        "Name": "8 x 200 Trench Mesh",
+        "Price": 82.25
+    },
+    {
+        "Id": "13",
+        "Name": "Backhoe to Dig LM of Pier Hole",
+        "Price": 142.35
+    },
+    {
+        "Id": "14",
+        "Name": "Bobcat to Dig LM of Strip Footing",
+        "Price": 9.5
+    },
+    {
+        "Id": "16",
+        "Name": "Bobcat with Auger to Dig LM of Pier Hole",
+        "Price": 7.0
+    },
+    {
+        "Id": "17",
+        "Name": "11 x 200 Trench Mesh",
+        "Price": 14.96
     }
 ]

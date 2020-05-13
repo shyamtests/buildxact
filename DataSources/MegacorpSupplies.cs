@@ -42,15 +42,10 @@ namespace buildxact_supplies.DataSources
             using var reader = new StreamReader(megacorpFile);
 
             var jsonString = reader.ReadToEnd();
-            var jsonDocument = JsonDocument.Parse(jsonString);
 
-            var partners = jsonDocument.RootElement.GetProperty("partners");
-
-            var supplies = partners.EnumerateArray().First().GetProperty("supplies"); // FIXME get megacorp not just the first
-
-            var records = JsonSerializer.Deserialize<IEnumerable<MegacorpItem>>(supplies.GetRawText(),
+            var records = JsonSerializer.Deserialize<Models.MegacorpSuppliers>(jsonString,
                 new JsonSerializerOptions {PropertyNameCaseInsensitive = true});
-            return records;
+            return records.Partners.SelectMany(p => p.Supplies);
         }
     }
 }
