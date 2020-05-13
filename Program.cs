@@ -26,8 +26,10 @@ namespace buildxact_supplies
             services.AddSingleton<IBuildingSupplies, HumphriesSupplies>();
             services.AddSingleton<IBuildingSupplies, MegacorpSupplies>();
 
-            services.AddScoped<ICurrencyConverter, CurrencyConverter>();
+            services.AddScoped<ICombinedSupplies, CombinedSupplies>();
 
+            services.AddScoped<ICurrencyConverter, CurrencyConverter>();
+            
             services.AddTransient<App>();
 
             return services;
