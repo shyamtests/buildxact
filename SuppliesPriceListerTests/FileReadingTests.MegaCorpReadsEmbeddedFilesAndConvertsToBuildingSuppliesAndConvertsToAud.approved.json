@@ -1,0 +1,37 @@
+[
+    {
+        "Id": "1",
+        "Name": "100 x 200 x 20mpa Internal Beam",
+        "Price": 80.0
+    },
+    {
+        "Id": "0",
+        "Name": "100 x 350 Thickened Edge",
+        "Price": 70.0
+    },
+    {
+        "Id": "2",
+        "Name": "1000 x 1000 x 350 x 20mpa Square Pad Footing",
+        "Price": 24.5
+    },
+    {
+        "Id": "3",
+        "Name": "100mm x 25mpa Slab",
+        "Price": 404.7
+    },
+    {
+        "Id": "4",
+        "Name": "100mm x 32 mpa Slab",
+        "Price": 45.0
+    },
+    {
+        "Id": "6",
+        "Name": "100 x 200 x 20mpa Internal Beam",
+        "Price": 4.0
+    },
+    {
+        "Id": "7",
+        "Name": "11 x 200 Trench Mesh",
+        "Price": 29.92
+    }
+]
