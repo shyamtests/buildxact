@@ -19,11 +19,8 @@ namespace buildxact_supplies
         public void Run()
         {
             var supplies = _combinedSupplies.GetAllBuildingSupplies();
-
-            var sorted = supplies.OrderBy(s => s.Price);
-            var output = sorted.Select(s => s.ToString());
-
-            output.ToList().ForEach(Console.WriteLine);
+            
+            ConsoleWriter.WriteSuppliesToConsole(supplies);
         }
     }
 }
