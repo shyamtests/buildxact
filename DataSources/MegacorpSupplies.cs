@@ -29,7 +29,6 @@ namespace buildxact_supplies.DataSources
             {
                 Name = s.description, Price =  _currencyConverter.ConvertCentsUsdToDollarsAud(s.priceInCents), Id = s.id.ToString()
             }); // TODO Confirm which ID to use as neither match example data
-            // TODO Add Currency COnversion 
         }
         
         
