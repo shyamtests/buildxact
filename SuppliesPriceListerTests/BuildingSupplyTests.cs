@@ -1,5 +1,4 @@
-using System;
-using SuppliesPriceLister.Models;
+using buildxact_supplies.Models;
 using Xunit;
 
 namespace SuppliesPriceListerTests

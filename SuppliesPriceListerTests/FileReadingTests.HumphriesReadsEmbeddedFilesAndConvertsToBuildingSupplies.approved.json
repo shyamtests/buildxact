@@ -1,0 +1,52 @@
+[
+    {
+        "Id": "586e0bd4-a84c-4c39-a696-1fafdf85e5bb",
+        "Name": "Suspended Slab Formwork per m2",
+        "Price": 23.59
+    },
+    {
+        "Id": "e1b3e145-782b-43b3-a081-f3634a07db00",
+        "Name": "TM3 R11 Mesh",
+        "Price": 83.99
+    },
+    {
+        "Id": "812c8fe8-7575-474e-bd6d-0be13e72fa0a",
+        "Name": "Under Slab Pest Control (LM + Penetrations)",
+        "Price": 300.0
+    },
+    {
+        "Id": "0edbbcf2-e61a-4f86-a9a7-34c94637b8cf",
+        "Name": "Under Slab Sand 100mm",
+        "Price": 83.5
+    },
+    {
+        "Id": "0a360e10-4e35-4e94-bd80-2e8bd6c749f1",
+        "Name": "Under Slab Sand 150mm",
+        "Price": 77.24
+    },
+    {
+        "Id": "45b0527b-5a8c-464c-9b93-b70629def248",
+        "Name": "Under Slab Sand 50mm",
+        "Price": 66.3
+    },
+    {
+        "Id": "fbc8b766-e734-4511-91ae-18b075ff19e5",
+        "Name": "N12 Reo Bar",
+        "Price": 50.0
+    },
+    {
+        "Id": "b6e3ec90-c008-4d67-b2b2-1904bef08eb6",
+        "Name": "Plastic Membrane",
+        "Price": 10.5
+    },
+    {
+        "Id": "94884242-19ee-444a-880d-eafccdb47fe8",
+        "Name": "Precast Concrete Pad",
+        "Price": 83.996
+    },
+    {
+        "Id": "7f3c48c4-f8b6-453f-b2fa-83ec31dfa85c",
+        "Name": "Bobcat to Dig LM of Strip Footing",
+        "Price": 800.0
+    }
+]

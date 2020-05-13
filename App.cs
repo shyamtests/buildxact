@@ -1,7 +1,7 @@
 ﻿using System;
 using Microsoft.Extensions.Configuration;
 
-namespace SuppliesPriceLister
+namespace buildxact_supplies
 {
     public class App
     {

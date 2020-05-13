@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace SuppliesPriceLister.Models
+namespace buildxact_supplies.Models
 {
     public class HumphriesItem
     {

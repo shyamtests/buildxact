@@ -1,9 +1,9 @@
-﻿using System;
-using System.IO;
+﻿using System.IO;
+using buildxact_supplies.DataSources;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 
-namespace SuppliesPriceLister
+namespace buildxact_supplies
 {
     class Program
     {
@@ -23,7 +23,8 @@ namespace SuppliesPriceLister
             var config = LoadConfiguration();
             services.AddSingleton(config);
 
-
+            services.AddSingleton<IBuildingSupplies, HumphriesSupplies>();
+            services.AddSingleton<IBuildingSupplies, MegacorpSupplies>();
 
             services.AddTransient<App>();
 
